@@ -13,7 +13,7 @@ namespace Bloggie.Web.Controllers
         {
             _bloggieDbContext= bloggieDbContext;
         }
-
+        
         [HttpGet]
         public IActionResult Add()
         {
